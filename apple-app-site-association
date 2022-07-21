@@ -5,7 +5,7 @@ permalink: .well-known/apple-app-site-association
 {
     "appclips": {
         "apps": [
-            "6FD5U73YFT.nanhon.billHelper.appclip"
+            "6FD5U73YFT.com.nanhon.billHelper.appclip"
         ]
     }
 }
