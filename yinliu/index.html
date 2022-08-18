@@ -1,0 +1,454 @@
+<!doctype html>
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-itunes-app" content="app-id=1635082514, app-clip-bundle-id=com.nanhon.billHelper.appclip, app-clip-display=card">
+    <meta charset="UTF-8">
+    <title>新版本内测</title>
+    <style>
+    body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: "PingFangSC-Regular", -apple-system, "SF UI Text", "PingFang SC", "Lucida Grande", STheiti, "Microsoft YaHei", sans-serif
+        }
+        
+        a,
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            -webkit-tap-highlight-color: transparent
+        }
+        
+        .btn,
+        body,
+        dd,
+        dl,
+        fieldset,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        legend,
+        p,
+        pre {
+            margin: 0
+        }
+        
+        .btn,
+        .ant_btn,
+        a {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        fieldset,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0
+        }
+        
+        td,
+        th {
+            padding: 0
+        }
+        
+        table {
+            font-size: inherit
+        }
+        
+        fieldset,
+        img {
+            border: none
+        }
+        
+        li,
+        ol,
+        ul {
+            list-style: none
+        }
+        
+        body {
+            font-size: 12px;
+            line-height: 1.5;
+            background: #fff;
+            color: #212832;
+            -webkit-touch-callout: none;
+            -webkit-font-size-adjust: none
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-size: 18px;
+            font-weight: 400
+        }
+        
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            outline: 0;
+            -webkit-text-size-adjust: none
+        }
+        
+        button,
+        input,
+        select,
+        textarea {
+            font-size: inherit
+        }
+        
+        .btn,
+        .qui_dialog_title {
+            height: 25px;
+            line-height: 25px;
+            font-size: 12px
+        }
+        
+        a {
+            color: rgb(46, 118, 252);
+            text-decoration: none
+        }
+        
+         :focus {
+            outline: 0
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section,
+        summary {
+            display: block
+        }
+        
+        audio,
+        canvas,
+        video {
+            display: inline-block
+        }
+        
+        .wrapper,
+        .btn,
+        .wr_fillBtn {
+            text-align: center
+        }
+        
+        .ant_btn:hover,
+        .wr_fillBtn:hover,
+        a.btn,
+        a.btn:hover,
+        a:active,
+        a:hover {
+            text-decoration: none
+        }
+        
+        .btn {
+            display: inline-block;
+            box-sizing: content-box;
+            min-width: 24px;
+            padding: 0 15px;
+            background: 0 0;
+            border: 1px solid rgb(46, 118, 252);
+            outline: 0;
+            cursor: pointer;
+            color: rgb(46, 118, 252);
+            _overflow-y: hidden
+        }
+        
+        .btn {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box
+        }
+        
+        button.btn,
+        input.btn {
+            *overflow: visible;
+            *min-width: auto
+        }
+        
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:focus::-webkit-input-placeholder,
+        textarea:focus::-webkit-input-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:-moz-placeholder,
+        textarea:-moz-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:focus:-moz-placeholder,
+        textarea:focus:-moz-placeholder {
+            color: #ADB4BE
+        }
+        
+        input::-moz-placeholder,
+        textarea::-moz-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:focus::-moz-placeholder,
+        textarea:focus::-moz-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:-ms-input-placeholder,
+        textarea:-ms-input-placeholder {
+            color: #ADB4BE
+        }
+        
+        input:focus:-ms-input-placeholder,
+        textarea:focus:-ms-input-placeholder {
+            color: #ADB4BE
+        }
+        
+        body,
+        html {
+            height: 100%
+        }
+        
+        input,
+        textarea {
+            margin: 0;
+            padding: 0;
+            border: 0
+        }
+        
+        textarea {
+            overflow: auto
+        }
+        
+         ::selection {
+            background: #e8e8e8
+        }
+        
+         ::-moz-selection {
+            background: #e8e8e8
+        }
+        
+         ::-webkit-selection {
+            background: #e8e8e8
+        }
+        
+        .wr_hide {
+            display: none!important
+        }
+        
+        .wr_show {
+            display: block!important
+        }
+        
+        .ant_btn {
+            border-radius: 13.5px;
+            font-size: 14px;
+            font-weight: 500;
+            box-sizing: border-box
+        }
+        
+        .ant_btn:active {
+            opacity: .5
+        }
+        
+        .ant_btn[disabled] {
+            opacity: .5;
+            pointer-events: none
+        }
+        
+        .ant_btn .wr_icons_LogoInButton {
+            vertical-align: -7px;
+            margin-right: 10px
+        }
+        
+        .ant_btn_originalPrice {
+            margin-left: 3px;
+            padding: 0 2px;
+            position: relative;
+            color: #999
+        }
+        
+        .ant_btn_originalPrice:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -1px;
+            bottom: 0;
+            left: -1px;
+            margin: auto;
+            height: 1px;
+            background: #999
+        }
+        
+        .footer,
+        .ant_btn .wr_loading {
+            position: absolute;
+            left: 0;
+            right: 0
+        }
+        
+        .ant_btn .wr_loading {
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-size: 22px
+        }
+        
+        @media screen and (max-width:349px) {
+            .wr_icons_LogoInButton {
+                margin-right: 6px
+            }
+        }
+        
+        .ant_btn_Big {
+            display: block;
+            height: 44px;
+            margin-left: 24px;
+            margin-right: 24px;
+            line-height: 44px;
+            border-radius: 23px
+        }
+        
+        @media screen and (max-width:349px) {
+            .ant_btn_Big {
+                font-size: 14px
+            }
+        }
+        
+        .wrapper {
+            padding-bottom: 28px;
+            padding-top: 30px;
+        }
+    }
+    .title {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 7px;
+        color: rgb(46, 46, 46);
+    }
+    .version {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 35px;
+        color: rgb(128, 128, 128);
+    }
+    .log {
+        width: 275px;
+        margin: 0 auto 28px auto;
+        text-align: center;
+    }
+    .log h2 {
+        font-size: 15px;
+        line-height: 15px;
+        color: rgb(46, 46, 46);
+        margin-bottom: 15px
+    }
+    .log li {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 14px;
+        color: #808080;
+    }
+    .footer {
+        bottom: 28px
+    }
+    .footer_Static {
+        position: static
+    }
+    .footer .ant_btn_Big {
+        width: 247px;
+        box-sizing: border-box;
+        margin: 0 auto 15px;
+        font-weight: normal;
+    }
+    .footer p {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 19px;
+        color: #808080;
+    }
+    .footer p a {
+        color: rgb(46, 118, 252);
+        font-weight: 500
+    }
+    .logo {
+        display: block;
+        border: 1px solid rgb(211, 211, 211);
+        width: 85px;
+        height: 85px;
+        border-radius: 15px;
+        margin: 0 auto 15px auto;
+        background: url(https://gw.alipayobjects.com/mdn/rms_200217/afts/img/A*lHxsQ48ofm4AAAAAAAAAAAAAARQnAQ) center center no-repeat;
+        background-size: contain
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" id="container">
+        <div class="logo"></div>
+        <h1 class="title">APPClip落地承接页面</h1>
+        <p class="version">版本&nbsp;1.0.0</p>
+        <section class="log">
+            <h2>APPClip来了，诚邀你抢先体验！</h2>
+            <ol>
+                <li>1.无需下载</li>
+                <li>2.不会留存</li>
+            </ol>
+        </section>
+        <!-- <footer class="footer"> <a ontouchstart class="btn ant_btn ant_btn_Big" href="itms-apps://itunes.apple.com/us/app/id899247664" id="testflightLink1">Step1 安装TestFlight</a> <a ontouchstart class="btn ant_btn ant_btn_Big" href="https://testflight.apple.com/join/kCycBOkG"
+                id="testflightLink2">Step2 参加内测</a>
+            <p>须先安装 <a href="itms-apps://itunes.apple.com/us/app/id899247664">TestFlight</a> 应用才可下载内测包 <br>如已安装请忽略</p>
+            <a href="#" id="hiddenLink" style="display:none"></a>
+        </footer> -->
+    </div>
+    <script>
+        var frame = document.querySelector('.wrapper'),
+            footer = document.querySelector('.footer'),
+            frameHeight = frame.offsetHeight,
+            footerHeight = footer.offsetHeight;
+
+        function screenAdjustment() {
+            winHeight = window.innerHeight;
+            if (frameHeight + footerHeight >= winHeight) {
+                footer.classList.add('footer_Static');
+            } else {
+                footer.classList.remove('footer_Static');
+            }
+        }
+        screenAdjustment();
+        window.onresize = function() {
+                screenAdjustment();
+            } //方案一  通用方案，不依赖容器   	var testflightLink = document.querySelector('#testflightLink2'); 	testflightLink.addEventListener('click', function(){ 		ajax({ 	        url: "/api/get_invite_url",  	        type: "GET", 	        data: { 	          app_id: '{{ app_id }}', 	          app_ver: '{{ app_ver }}' 	        }, 	        success: function (response, xml) { 	        	var json = JSON.parse(response); 	        	var url = json.data.url; 				if (url.indexOf('http') > -1) { 		    		if (gtios9()) { 		        		url = url.replace('https://', 'itms-beta://'); 		        		var hiddenLink = document.querySelector('#hiddenLink'); 		        		hiddenLink.href = url; 		        		hiddenLink.click(); 		        	} else { 						window.location.href = url; 					} 		        } 	        }, 	        fail: function (status) { 	        } 	    }); 	});  	//方案二  针对产品各自容器优化，可判断是否安装TestFlight进行提示。  	/*  	//蚂蚁Nebula容器优化  	var canUseScheme = gtios9();  	function ready(callback) { 	  if (window.AlipayJSBridge) { 	    callback && callback(); 	  } else { 	    document.addEventListener('AlipayJSBridgeReady', callback, false); 	  } 	} 	ready(function(){ 		AlipayJSBridge.call('isInstalledApp', { 		  scheme: 'itms-beta://', 		}, function (result) { 			if (result.installed) { 				document.querySelector('#testflightLink1').style.display = "none"; 	    		document.querySelector('#testflightLink2').innerText = "参加内测"; 			} 		}); 	})      var tryCount = 0;   	var testflightLink = document.querySelector('#testflightLink2'); 	testflightLink.addEventListener('click', function(){ 		if (!canUseScheme) { 			invite(false); 			return; 		} 		AlipayJSBridge.call('isInstalledApp', { 		  scheme: 'itms-beta://', 		}, function (result) { 			if (result.installed) {         		invite(true); 			} else { 				//protect 				tryCount ++; 				if (tryCount > 1) { 	        		invite(false); 	        		tryCount = 0; 				} else { 		    		AlipayJSBridge.call('toast', { 					  content: '请先安装 TestFlight', 					  type: 'fail', 					  duration: 1500 					}, function(){}); 		    	} 			}	 		}); 	});  	function invite(useScheme) { 	    ajax({ 	        url: "/api/get_invite_url",  	        type: "GET", 	        data: { 	          app_id: '{{ app_id }}', 	          app_ver: '{{ app_ver }}' 	        }, 	        success: function (response, xml) { 	        	var json = JSON.parse(response); 	        	var url = json.data.url; 	        	if (url.indexOf('http') > -1) { 	        		if (useScheme) { 		        		url = url.replace('https://', 'itms-beta://'); 		        	} 					AlipayJSBridge.call('openInBrowser', { 					  url: url 					}); 		        } 	        }, 	        fail: function (status) { 	        } 	    }); 	}  	*/  	function gtios9() { 	    if(navigator.userAgent.match(/iPhone/i)) { 	        return Boolean(navigator.userAgent.match(/OS [10-15]*_\d_*\d* like Mac OS X/i)); 	    } else { 	        return false; 	    } 	}      function ajax(options) {         options = options || {};         options.type = (options.type || "GET").toUpperCase();         options.dataType = options.dataType || "json";         var params = formatParams(options.data);         var xhr = new XMLHttpRequest();          xhr.onreadystatechange = function () {             if (xhr.readyState == 4) {                 var status = xhr.status;                 if (status >= 200 && status < 300) {                     options.success && options.success(xhr.responseText);                 } else {                     options.fail && options.fail(status);                 }             }         }          if (options.type == "GET") {             xhr.open("GET", options.url + "?" + params, true);             xhr.send(null);         } else if (options.type == "POST") {             xhr.open("POST", options.url, true);             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");             xhr.send(params);         }     }     function formatParams(data) {         var arr = [];         for (var name in data) {             arr.push(encodeURIComponent(name) + "=" + encodeURIComponent(data[name]));         }         arr.push(("v=" + Math.random()).replace("."));         return arr.join("&");     }
+    </script>
+</body>
+
+</html>
+<!--cms:v.4-->
