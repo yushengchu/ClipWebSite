@@ -1,11 +1,8 @@
----
-layout: none
-permalink: .well-known/apple-app-site-association
----
 {
     "appclips": {
         "apps": [
-            "6FD5U73YFT.com.nanhon.billHelper.appclip"
+            "6FD5U73YFT.com.nanhon.billHelper.appclip",
+            "M52URE8PD4.com.mybank.ios.phone.clip"
         ]
     }
 }
