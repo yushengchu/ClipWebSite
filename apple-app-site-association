@@ -4,5 +4,17 @@
             "6FD5U73YFT.com.nanhon.billHelper.appclip",
             "M52URE8PD4.com.mybank.ios.phone.clip"
         ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [{
+                "appID": "Q5PJGLWG38.com.mybank.ios.phone.test",
+                "paths": ["*"]
+            },
+            {
+                "appID": "M52URE8PD4.com.mybank.ios.phone",
+                "paths": ["*"]
+            }
+        ]
     }
 }
