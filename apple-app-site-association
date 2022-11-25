@@ -9,11 +9,17 @@
         "apps": [],
         "details": [{
                 "appID": "Q5PJGLWG38.com.mybank.ios.phone.test",
-                "paths": ["*"]
+                "paths": [
+                    "p/s/i/?scheme=*",
+                    "p/s/ulink/*"
+                ]
             },
             {
                 "appID": "M52URE8PD4.com.mybank.ios.phone",
-                "paths": ["*"]
+                "paths": [
+                    "p/s/i/?scheme=*",
+                    "p/s/ulink/*"
+                ]
             }
         ]
     }
